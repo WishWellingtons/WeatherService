@@ -8,4 +8,5 @@ Made for Arduino/ESP32 etc
 - Uses https://open-meteo.com/ as the weather API. Check it out to see what parameters can be fetched, there's a lot!
 
 ## To-do  
-- Make the lat and lon values variables so this can be used with GPS as well and not rely on IP location. 
+- Make the lat and lon values variables so this can be used with GPS as well and not rely on IP location.
+- change from client.setInsecure() to handle certificate verification. client.setInsecure() was used for testing purposes. 
