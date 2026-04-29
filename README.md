@@ -1,5 +1,6 @@
 # getWeather
 Get the weather using approximate location data found from IP location.  
+Made for Arduino/ESP32 etc
 
 - Due to the accuracy of IP location, this is fine for a general forecast, ie, nearest city, is it cloudy, general temps etc
 - For actually accurate weather forecasts, GPS location should be used and fed into the openMeteo API call. 
